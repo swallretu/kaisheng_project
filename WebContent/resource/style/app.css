@@ -1,0 +1,114 @@
+/**
+all style of website unless bootstrap
+*/
+body{
+	padding-top: 100px;
+	background-image:url("resource/image/background2_2.jpg");
+	background-repeat:repeat
+}
+.navbar-default{
+  background-color: #1B48A3;
+}
+.item{
+    text-align: center;
+	width: 100%;
+	height: 0;
+	padding-bottom: 40%;
+	overflow: hidden;
+}
+.item .item_list{
+	align : center;
+}
+.item_list img {
+  width: 100%;
+}
+.index_news_row{
+	overflow:hidden;
+}
+.index_news_row_left,
+.index_news_row_center,
+.index_news_row_right{
+	padding-left:0px;
+	padding-right:0px
+}
+.index_news_row_img{
+	width:100%;
+}
+.classicon{
+	width:100%;
+	position:absolute;
+	left:0;
+	color:#fff;
+	opacity:0;
+}
+.classicon_390{
+	height:390px;
+	top:0;
+}
+.classicon_150{
+	height:150px;
+	top:390px;
+}
+.classicon_140{
+	height:140px;
+	top:0;
+}
+.classicon_200_1{
+	height:200px;
+	top:140px;
+}
+.classicon_200_2{
+	height:200px;
+	top:340px;
+}
+.classicon_220_1{
+	height:220px;
+	top:0;
+}
+.classicon_100{
+	height:100px;
+	top:220px;
+}
+.classicon_220_2{
+	height:220px;
+	top:320px;
+}
+.classicon_390:hover,
+.classicon_150:hover,
+.classicon_140:hover,
+.classicon_200_1:hover,
+.classicon_200_2:hover,
+.classicon_220_1:hover,
+.classicon_100:hover,
+.classicon_220_2:hover{
+	background-color:#1B48A3;
+	opacity:0.8;
+	transition:opacity 0.5s;
+	-webkit-transition:opacity 0.1s;
+}
+
+a.navbar-brand.font_text,
+.navbar-nav > li > a.font_text{
+  color: #FFFFFF;
+}
+.footer {
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 100px;
+  background-color: #1B48A3;
+}
+.container .text-muted {
+	text-align:center;	
+  	margin: 20px 0;
+  	color:#FFFFFF; 
+  	padding-top:20px;
+}
+.scan_img{
+	padding-top:2px;
+}
+.showborder{
+	border-style:solid; 
+	border-width:1px; 
+	border-color:#000;
+}
